@@ -1,0 +1,76 @@
+2024-07-30 16:27:55,037 - INFO
+Client: Address(host='127.0.0.1', port=61170)
+Url: http://127.0.0.1:8000/switch-model
+Body: b'{"customCuda": false, "deploy": false, "model": "models/RWKV-5-World-0.1B-v1-20230803-ctx4096", "strategy": "cuda fp16", "tokenizer": ""}'
+
+2024-07-30 16:28:06,433 - INFO
+Client: 
+Url: 
+Data:
+New Trie Id: 0
+Trie Len: 1
+Trie Buff Size: 8296
+Dtrie Buff Size Of Id: 755798
+
+2024-07-30 16:30:15,412 - INFO
+Client: Address(host='127.0.0.1', port=61230)
+Url: http://127.0.0.1:8000/v1/chat/completions
+Body: b'{"frequency_penalty": 1, "max_tokens": 1000, "messages": [{"content": "\\u4f60\\u597d", "raw": false, "role": "user"}], "model": "rwkv", "presence_penalty": 0, "presystem": true, "stream": false, "temperature": 1, "top_p": 0.3}'
+
+2024-07-30 16:30:15,416 - INFO
+Client: Address(host='127.0.0.1', port=61230)
+Url: http://127.0.0.1:8000/v1/chat/completions
+Data:
+Start Waiting. RequestsNum: 1
+
+2024-07-30 16:30:15,419 - INFO
+Client: 
+Url: 
+Data:
+Generation Prompt:
+User: hi
+
+Assistant: Hi. I am your assistant and I will provide expert full response in full details. Please feel free to ask any question and I will always answer it.
+
+User: 你好
+
+Assistant:
+
+2024-07-30 16:30:15,431 - INFO
+Client: 
+Url: 
+Body: {"prompt": "User: hi\n\nAssistant: Hi. I am your assistant and I will provide expert full response in full details. Please feel free to ask any question and I will always answer it.\n\nUser: 你好\n\nAssistant:"}
+Data:
+Hit:
+User: hi
+
+Assistant: Hi. I am your assistant and I will provide expert full response in full details. Please feel free to ask any question and I will always answer it.
+
+
+
+2024-07-30 16:30:16,421 - INFO
+Client: 
+Url: 
+Data:
+New Trie Id: 1
+Trie Len: 2
+Trie Buff Size: 8296
+Dtrie Buff Size Of Id: 756284
+
+2024-07-30 16:30:18,175 - INFO
+Client: 
+Url: 
+Data:
+New Trie Id: 2
+Trie Len: 3
+Trie Buff Size: 8296
+Dtrie Buff Size Of Id: 757094
+
+2024-07-30 16:30:18,176 - INFO
+Client: Address(host='127.0.0.1', port=61230)
+Url: http://127.0.0.1:8000/v1/chat/completions
+Body: {"max_tokens": 1000, "temperature": 1.0, "top_p": 0.3, "presence_penalty": 0.0, "frequency_penalty": 1.0, "penalty_decay": null, "top_k": null, "global_penalty": null, "state": null, "messages": [{"role": "user", "content": "你好", "raw": false}], "model": "rwkv", "stream": false, "stop": ["\n\nUser", "\n\nQuestion", "\n\nQ", "\n\nHuman", "\n\nBob", "\n\nAssistant", "\n\nAnswer", "\n\nA", "\n\nBot", "\n\nAlice", "\n\nUser", "\n\nAss"], "user_name": null, "assistant_name": null, "system_name": null, "presystem": true}
+Data:
+ I'm happy to help you. What is your first name?
+Finished. RequestsNum: 0
+

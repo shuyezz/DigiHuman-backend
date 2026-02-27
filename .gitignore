@@ -1,0 +1,45 @@
+# 模型
+app/GPT_SoVITS/pretrained_models/chinese-hubert-base/config.json
+app/GPT_SoVITS/pretrained_models/chinese-hubert-base/preprocessor_config.json
+app/GPT_SoVITS/pretrained_models/chinese-hubert-base/pytorch_model.bin
+app/GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large/config.json
+app/GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large/pytorch_model.bin
+app/GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large/tokenizer.json
+app/GPT_SoVITS/pretrained_models/s1bert25hz-2kh-longer-epoch=68e-step=50232.ckpt
+app/GPT_SoVITS/pretrained_models/s2G488k.pth
+gpt-model/config.json
+gpt-model/pytorch_model.bin
+gpt-model/vocab.txt
+/models
+
+# 测试资源和结果
+output.wav
+
+# 参考资源
+refer
+
+# 虚拟环境
+pyvenv.cfg
+/Lib
+Library
+Include
+share
+Scripts
+
+# 编辑器环境
+.vscode
+
+# 运行文件
+__pycache__
+*.pyc
+
+# 运行依赖
+ffmpeg.exe
+ffprobe.exe
+
+#暂时忽略
+/models
+#/backend-python
+
+#环境变量
+env.py

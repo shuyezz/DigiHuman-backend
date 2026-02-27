@@ -1,0 +1,6 @@
+[submodule "app/dialogbot"]
+	path = app/dialogbot
+	url = https://github.com/creamIcec/dialogbot
+[submodule "app/GPT_SoVITS"]
+	path = app/GPT_SoVITS
+	url = https://github.com/creamIcec/GPT_SoVITS
